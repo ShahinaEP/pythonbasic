@@ -19,9 +19,12 @@ else:
     print(f"Your number is {bangla}: Number is Invalid")
 
 print('\n')
+
+
 # ex-2: Find odd or even number
-numder = int(input('Enter your number:'))
-if numder % 2 == 1:
-    print('odd')
+number = int(input('Enter your number:'))
+if number % 2 == 1:
+    print(f'Your enter number {number} is odd')
 else:
-    print('Even')
+    print(f'Your enter number {number} is even')
+
